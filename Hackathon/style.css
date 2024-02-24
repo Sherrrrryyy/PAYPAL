@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buttons .btn1{
+    width: 60px;
+    height: 36px;
+    border: none;
+    background-color: whitesmoke;
+    color: #002E84;
+    font-weight: 500;
+    margin-right: 10px;
+
+}
+
+.buttons .btn2{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #002E84;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: #002E84;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.buttons .btn3{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #002E84;
+    border-radius: 30px;
+    background-color: #002E84;
+    color: white ;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+.Heroone{
+    height: 740px;
+    background-color: #002E84;
+    /* border: 1px solid red; */
+position: relative;
+}
+
+.Heroone img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+
+}
+
+
+.HeroHeading h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 500;
+margin-left: 50px;
+    margin-top: 60px;
+
+}
+
+.HeroHeading h3{
+    color: #56ccfe;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+
+.HeroHeading h2{
+font-size: 20px;
+color: white;
+font-weight: bold;
+padding: 48px 0 37px;  
+margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+
+.HeroTwo{
+    display: flex;
+justify-content: center;
+    position: relative;
+height: 120px;
+width: 150px;
+margin-left: 160px;
+/* border: 1px solid red; */
+}
+
+.HeroTwo img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+
+}
+
+
+.HeroThree{
+    display: block;
+/* border: 1px solid red; */
+height: 250px;
+padding-left: 15px;
+}
+
+
+.HeroThree input{
+    width: 350px;
+    height: 60px;
+    padding: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.HeroThree button{
+    width: 140px;
+    height: 50px;
+    color: black;
+    font-weight: 500;
+    background-color: #F9B822;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.HeroThree p{
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+
+.secondimg{
+    width: 350px;
+    margin-left: 450px;
+
+
+}
+
+.secondimg img{
+    height: 410px;
+    width: 350px;
+}
+
+.Hero2{
+    height: 110px;
+    border-bottom: 1px solid black;
+padding: 44px 0 ;
+display: flex;
+justify-content: center;
+}
+
+.Hero2 h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Hero3{
+    height: 530px;
+    padding: 114px 60px 0;
+}
+
+.Hero3 img{
+    height: 350px;
+    width: 370px;
+}
+
+
+.Hero3a{
+    margin-left: 80px;
+}
+
+.Hero3a h1{
+    font-size: 48px;
+    color: black;font-weight: 500;
+}
+
+.Hero3a p{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Hero3a a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.Hero4{
+    height: 530px;
+    padding: 114px 60px 0;
+    margin-left: 100px;
+
+}
+
+.Hero4 img{
+    height: 350px;
+    width: 370px;
+}
+
+
+.Hero4a{
+    margin-left: 100px;
+}
+
+.Hero4 h1{
+    font-size: 48px;
+    color: black;font-weight: 500;
+}
+
+.Hero4 h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Hero4 p{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.Hero4 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.Hero5{
+    height: 530px;
+    padding: 114px 60px 0;
+}
+
+.Hero5 img{
+    height: 350px;
+    width: 370px;
+}
+
+
+.Hero5a{
+    margin-left: 80px;
+}
+
+.Hero5a h1{
+    font-size: 48px;
+    color: black;font-weight: 500;
+}
+
+.Hero5a p{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Hero5a a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.Hero6{
+    height: 530px;
+    padding: 114px 60px 0;
+    margin-left: 100px;
+
+}
+
+.Hero6 img{
+    height: 350px;
+    width: 370px;
+}
+
+
+.Hero6a{
+    margin-left: 100px;
+}
+
+.Hero6 h1{
+    font-size: 48px;
+    color: black;font-weight: 500;
+}
+
+.Hero6 p{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Hero6 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.Hero7{
+    height: 530px;
+    padding: 114px 60px 0;
+}
+
+.Hero7 img{
+    height: 350px;
+    width: 370px;
+}
+
+
+.Hero7a{
+    margin-left: 80px;
+}
+
+.Hero7a h1{
+    font-size: 48px;
+    color: black;font-weight: 500;
+}
+
+.Hero7a p{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Hero7a a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.Hero8{
+    padding: 156px 0 100px;
+    height: 460px;
+}
+.Hero8 img{
+    margin-left: 150px;
+}
+
+.Hero8Head h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.Hero9{
+    height: 313px;
+    background-color: #002E84;
+    border: none;
+  
+}
+
+.Hero9H{
+    padding: 80px 0 60px;
+}
+
+.Hero9H h1{
+    font-size: 44px;
+    color: white;
+    font-weight: 400;
+}
+
+.Hero9H button{
+    margin-left: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    color: #002E84;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    width: 320px;
+    height: 50px;
+}
+
